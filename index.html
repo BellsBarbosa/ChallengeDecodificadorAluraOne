@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/bellsDecodeVerde.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<body>  
+    <main class="main container">
+        <header class="cabecalho">
+          <img src="imagens/bellsDecodeVerde.png" alt="Logo Bells">
+          <h1>Codifique suas mensagens!</h1>
+        </header>
+        <div class="container-input">
+        <div class="input">
+           <textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+           <p>Apenas letras minúsculas e sem acento!</p>
+       </div>
+
+
+        <div id="output">
+           <img src="imagens/detetiveDecode.png" alt="detetiveDecode Bells" height="250px" width="250px">
+           <h2>Sua mensagem aparecerá aqui!</h2>
+           <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+        </div>
+       </div>
+
+       
+        <div class="buttons">
+            <div class="container-bnt">
+               <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+               <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+           
+        </div>
+    </main>
+    
+
+    <footer class="rodape">
+        <div class="icons">
+        <a href="https://github.com/BellsBarbosa"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/isabel-barbosa-programadora/"><ion-icon name="logo-linkedin"></ion-icon></a>
+    </div>
+        <h3>Desenvolvido por Bells Barbosa</h3>
+     </footer>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

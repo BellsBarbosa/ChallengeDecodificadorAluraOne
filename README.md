@@ -41,3 +41,8 @@ O resultado deve ser exibido na tela.</p>
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Google Fonts](https://fonts.google.com/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+<div align="center">
+  <h2>Badge recebido devido a finalização do projeto</h2>
+  <img alt="badge" width="200px" src="/imagens/Decodificador de texto.png"/>
+</div>
